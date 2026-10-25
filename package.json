@@ -1,0 +1,11 @@
+{
+  "name": "civixai-platform",
+  "version": "1.0.0",
+  "description": "CivixAI — Smart Civic Issue Resolver & Governance Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  }
+}
